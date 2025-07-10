@@ -396,7 +396,7 @@ span{
 }
 
 .project-box {
-  width: 500px;
+  width: 100%;
   position: relative;
   padding: 1.5rem;
   border-radius: 1.5rem;
