@@ -326,7 +326,7 @@ span{
 
 .skills-container .skill-card:hover {
   border-color: var(--main-color);
-  transform: scale(1.02);
+  transform: scale(1.02) !important;
 }
 
 .skill-card h3{
