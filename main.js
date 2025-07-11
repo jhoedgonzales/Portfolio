@@ -65,6 +65,9 @@ ScrollReveal({
   duration: 1000,
   delay: 200,
   reset: false, // if true, animation repeats when element re-enters
+  afterReveal: function(el) {
+    el.style.transform = '';
+  }
 });
 
 // Reveal sections
