@@ -64,7 +64,7 @@ ScrollReveal({
   distance: '50px',
   duration: 1000,
   delay: 200,
-  reset: false, // if true, animation repeats when element re-enters
+  reset: true, // if true, animation repeats when element re-enters
   afterReveal: function(el) {
     el.style.transform = '';
   }
